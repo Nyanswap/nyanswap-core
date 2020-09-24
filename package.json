@@ -1,18 +1,17 @@
 {
-  "name": "@uniswap/v2-core",
-  "description": "🎛 Core contracts for the UniswapV2 protocol",
-  "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "name": "nyanswap-core",
+  "description": "Core contracts for the nyanswap protocol",
+  "version": "1.0.0",
+  "homepage": "https://nyanswap.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v2-core"
+    "url": "https://github.com/Nyanswap/nyanswap-core"
   },
   "keywords": [
-    "uniswap",
+    "nyanswap",
     "ethereum",
-    "v2",
-    "core",
-    "uniswap-v2"
+    "smart contract",
+    "solidity"
   ],
   "files": [
     "contracts",
