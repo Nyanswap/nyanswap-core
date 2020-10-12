@@ -1,6 +1,8 @@
 node_modules/
 build/
 
+secrets.json
+
 # OpenZeppelin
 .openzeppelin/dev-*.json
 .openzeppelin/.session
