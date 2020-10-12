@@ -7,6 +7,16 @@
         "address": "0xe07BfcFB78DA58791941e6aecF88ed3B1D414e64",
         "kind": "NonProxy",
         "bytecodeHash": "de784dadfd96c4d2dd22914d08bbd2c5f3de24474889121bdc21571f1ce48090"
+      },
+      {
+        "address": "0xB42F26110e8dc701EC9fc2097288770621FD0296",
+        "kind": "NonProxy",
+        "bytecodeHash": "de784dadfd96c4d2dd22914d08bbd2c5f3de24474889121bdc21571f1ce48090"
+      },
+      {
+        "address": "0xbD85544cC6057A97f340ED29F1Ace1a24e564C12",
+        "kind": "NonProxy",
+        "bytecodeHash": "de784dadfd96c4d2dd22914d08bbd2c5f3de24474889121bdc21571f1ce48090"
       }
     ]
   },
