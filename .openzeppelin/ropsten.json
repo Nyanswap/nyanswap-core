@@ -1,0 +1,14 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "nyanswap-core/NyanswapFactory": [
+      {
+        "address": "0xe07BfcFB78DA58791941e6aecF88ed3B1D414e64",
+        "kind": "NonProxy",
+        "bytecodeHash": "de784dadfd96c4d2dd22914d08bbd2c5f3de24474889121bdc21571f1ce48090"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}
