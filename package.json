@@ -1,7 +1,7 @@
 {
-  "name": "nyanswap-core",
+  "name": "@nyanswap/core",
   "description": "Core contracts for the nyanswap protocol",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "homepage": "https://nyanswap.com",
   "repository": {
     "type": "git",
