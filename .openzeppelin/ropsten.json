@@ -2,11 +2,18 @@
   "contracts": {},
   "solidityLibs": {},
   "proxies": {
-    "nyanswap-core/NyanswapFactory": [
+    "nyanswap-core/UniswapV2Factory": [
       {
-        "address": "0xfB8bBdd28D889887DFc99E7c2BD1bDc503be9f58",
+        "address": "0xFA99655b9786437e2979F32b7d5949B40CDe48a6",
         "kind": "NonProxy",
-        "bytecodeHash": "5c7d01b14d18d2dd13e90625054fbf212c0fc308629bf0649735222e6aa676fb"
+        "bytecodeHash": "bb5c67076ec3454eed804aac9e29718f93221a573dd984f3a4d399f301f522ac"
+      }
+    ],
+    "nyanswap-core/UniswapV2Router02": [
+      {
+        "address": "0x55C9d9625aEE1c1C6Bc5FFB9F7e2D71c58BbA8e3",
+        "kind": "NonProxy",
+        "bytecodeHash": "32948806f6916aebf8950b07f061f48028fb532356e653f82a32c4e87acfe66f"
       }
     ]
   },
