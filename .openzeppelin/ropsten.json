@@ -4,16 +4,21 @@
   "proxies": {
     "nyanswap-core/UniswapV2Factory": [
       {
-        "address": "0xFA99655b9786437e2979F32b7d5949B40CDe48a6",
+        "address": "0x5D3D16E0CB7e80b3a7a88cBc6532Fb4Bf3eb301d",
         "kind": "NonProxy",
         "bytecodeHash": "bb5c67076ec3454eed804aac9e29718f93221a573dd984f3a4d399f301f522ac"
       }
     ],
     "nyanswap-core/UniswapV2Router02": [
       {
-        "address": "0x55C9d9625aEE1c1C6Bc5FFB9F7e2D71c58BbA8e3",
+        "address": "0x2cc530A1784F713C43c820507C57B07A9E7F7F78",
         "kind": "NonProxy",
         "bytecodeHash": "32948806f6916aebf8950b07f061f48028fb532356e653f82a32c4e87acfe66f"
+      },
+      {
+        "address": "0x01a8F501Cd54ad168E1473A13b90df32cB8F6b53",
+        "kind": "NonProxy",
+        "bytecodeHash": "7ddf770c4c8384f10cb6219502ac0627a552429d9d9f24e94d07dc6f85324153"
       }
     ]
   },
