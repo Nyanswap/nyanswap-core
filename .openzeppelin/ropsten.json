@@ -4,9 +4,9 @@
   "proxies": {
     "nyanswap-core/UniswapV2Factory": [
       {
-        "address": "0xd8318d5C56312af27c3D85f40b93724dC2F18da6",
+        "address": "0xF82a6afBC99D5DE6DcEdbb11F26B7405CbbF8C4a",
         "kind": "NonProxy",
-        "bytecodeHash": "dc62003a65d74701fb944c435f03ed4703e7b5028aaa617f72a2ca17bdd21b83"
+        "bytecodeHash": "52290e9897e150cf579477b71d2c39055db7086e7af2ef3f48737ffb22924e8a"
       }
     ]
   },
