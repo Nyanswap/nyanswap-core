@@ -48,6 +48,8 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@ethersproject/solidity": "^5.0.5",
+    "bip39": "^3.0.2",
+    "ethereum-hdwallet": "^0.0.26",
     "ethers": "^5.0.17"
   }
 }
