@@ -14,17 +14,17 @@ module.exports = {
     ropsten: {
       provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/${projectId}`),
       network_id: 3,
-      gasPrice: 3.5e9       
+      gasPrice: 3e9       
     },
     kovan: {
       provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/${projectId}`),
       network_id: 42,     
-      gasPrice: 3.5e9  
+      gasPrice: 3e9  
     },
     mainnet: {
       provider: () => new HDWalletProvider(mnemonic, `https://mainnet.infura.io/v3/${projectId}`),
       network_id: 1,
-      gasPrice: 3.5e9       
+      gasPrice: 3e9       
     },
   },
 };
