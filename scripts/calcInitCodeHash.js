@@ -1,8 +1,8 @@
-import { keccak256 } from '@ethersproject/solidity'
-import { bytecode } from '../build/contracts/UniswapV2Pair.json'
+const util = require('@ethersproject/solidity')
+const { bytecode } = require('../build/contracts/UniswapV2Pair.json')
 
-const hash = keccak256(['bytes'], [bytecode])
+const hash = util.keccak256(['bytes'], [bytecode])
 
-console.log('=====================')
+console.log('==============================================')
 
-console.log(hash)
+console.log(`INIT CODE PAIR HASH: ${hash}`)

@@ -1,62 +1,99 @@
-module.exports = {
-  // Uncommenting the defaults below
-  // provides for an easier quick-start with Ganache.
-  // You can also follow this format for other networks;
-  // see <http://truffleframework.com/docs/advanced/configuration>
-  // for more details on how to specify configuration options!
-  //
-  //networks: {
-  //  development: {
-  //    host: "127.0.0.1",
-  //    port: 7545,
-  //    network_id: "*"
-  //  },
-  //  test: {
-  //    host: "127.0.0.1",
-  //    port: 7545,
-  //    network_id: "*"
-  //  }
-  //}
-  //
-  compilers: {
-    solc: {
-      version: "0.6.12"
-    }
-  }
-};
-
-
-
-
-/*
-const { projectId, mnemonic } = require('./secrets.json')
 const HDWalletProvider = require('@truffle/hdwallet-provider')
+const LedgerWalletProvider = require('truffle-ledger-provider')
+const { mnemonic, infuraProjectId} = require('./secrets.json')
 
+// HDWallet
 module.exports = {
   networks: {
     development: {
-      protocol: 'http',
-      host: 'localhost',
-      port: 8545,
-      gas: 5000000,
-      gasPrice: 5e9,
-      networkId: '*',
-    },
-    ropsten: {
-      provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/${projectId}`),
-      network_id: 3,
-      gasPrice: 3e9       
-    },
-    kovan: {
-      provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/${projectId}`),
-      network_id: 42,     
-      gasPrice: 3e9  
+      host: '127.0.0.1',
+      port: 7545,
+      network_id: '*'
     },
     mainnet: {
-      provider: () => new HDWalletProvider(mnemonic, `https://mainnet.infura.io/v3/${projectId}`),
-      network_id: 1,
+      provider: () => new HDWalletProvider(mnemonic, `https://mainnet.infura.io/v3/${infuraProjectId}`, 0, 1),
+      network_id: '1',
       gasPrice: 3e9       
     },
+    ropsten: {
+      provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/${infuraProjectId}`, 0, 1),
+      network_id: '3',
+      gasPrice: 3e9
+    },
+    kovan: {
+      provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/${infuraProjectId}`, 0, 1),
+      network_id: '42',     
+      gasPrice: 3e9  
+    }
   },
-};
+  compilers: {
+    solc: {
+      version: '0.6.12',
+      settings: {
+        optimizer: {
+          enabled: true,
+          runs: 999999
+        },
+        evmVersion: "istanbul"
+      }
+    }
+  }
+}
+
+
+/*
+// Ledger nano wallet
+module.exports = {
+  networks: {
+    development: {
+      host: '127.0.0.1',
+      port: 7545,
+      network_id: '*'
+    },
+    mainnet: {
+      provider: () => new LedgerWalletProvider(
+        {
+          networkId: 1,
+          askCnfirm: true,
+          accountsLength: 1,
+          accountsOffset: 0
+        }, `https://mainnet.infura.io/v3/${infuraProjectId}`, 0, 1),
+      network_id: '1',
+      gasPrice: 3e9       
+    },
+    ropsten: {
+      provider: () => new HDWalletProvider(
+        {
+          networkId: 3,
+          askCnfirm: true,
+          accountsLength: 1,
+          accountsOffset: 0
+        }, `https://ropsten.infura.io/v3/${infuraProjectId}`, 0, 1),
+      network_id: '3',
+      gasPrice: 3e9
+    },
+    kovan: {
+      provider: () => new HDWalletProvider(        {
+        networkId: 42,
+        askCnfirm: true,
+        accountsLength: 1,
+        accountsOffset: 0
+      }, `https://kovan.infura.io/v3/${infuraProjectId}`, 0, 1),
+      network_id: '42',     
+      gasPrice: 3e9  
+    }
+  },
+  compilers: {
+    solc: {
+      version: '0.6.12',
+      settings: {
+        optimizer: {
+          enabled: true,
+          runs: 999999
+        },
+        evmVersion: "istanbul"
+      }
+    }
+  }
+}
 */

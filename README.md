@@ -1,6 +1,10 @@
-# SushiSwap 🍣
+# Nyanswap
 
-https://app.sushiswap.org. Feel free to read the code. More details coming soon.
+Forked form Sushiswap
+
+https://app.nyanswap.com/ 
+
+Feel free to read the code. More details coming soon.
 
 ## Deployed Contracts / Hash
 
