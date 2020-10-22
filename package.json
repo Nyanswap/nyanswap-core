@@ -16,7 +16,9 @@
   ],
   "scripts": {
     "compile": "npx truffle compile",
-    "prepublishOnly": "yarn run compile && node scripts/prepublish.js"
+    "prepublishOnly": "yarn run compile && node scripts/prepublish.js",
+    "release_factory": "npx truffle-flattener ./contracts/uniswapv2/UniswapV2Factory.sol > ./contracts/uniswapv2/factory.sol",
+    "release_router": "npx truffle-flattener ./contracts/uniswapv2/UniswapV2Router02.sol > ./contracts/uniswapv2/router.sol"
   },
   "devDependencies": {
     "@ethersproject/solidity": "^5.0.5",

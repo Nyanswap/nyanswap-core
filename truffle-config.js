@@ -8,22 +8,26 @@ module.exports = {
     development: {
       host: '127.0.0.1',
       port: 7545,
-      network_id: '*'
+      network_id: '*',
+      skipDryRun: true       
     },
     mainnet: {
       provider: () => new HDWalletProvider(mnemonic, `https://mainnet.infura.io/v3/${infuraProjectId}`, 0, 1),
       network_id: '1',
-      gasPrice: 3e9       
+      gasPrice: 3e9,
+      skipDryRun: true       
     },
     ropsten: {
       provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/${infuraProjectId}`, 0, 1),
       network_id: '3',
-      gasPrice: 3e9
+      gasPrice: 3e9,
+      skipDryRun: true       
     },
     kovan: {
       provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/${infuraProjectId}`, 0, 1),
       network_id: '42',     
-      gasPrice: 3e9  
+      gasPrice: 3e9,
+      skipDryRun: true
     }
   },
   compilers: {
