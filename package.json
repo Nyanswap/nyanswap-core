@@ -22,10 +22,11 @@
   },
   "devDependencies": {
     "@ethersproject/solidity": "^5.0.5",
-    "@truffle/hdwallet-provider": "^1.1.1",
-    "ethereum-hdwallet": "^0.0.26",
     "@openzeppelin/contracts": "^3.1.0",
     "@openzeppelin/test-helpers": "^0.5.6",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "ethereum-hdwallet": "^0.0.26",
+    "ethereumjs-abi": "^0.6.8",
     "regenerator-runtime": "^0.13.7",
     "truffle": "^5.1.41",
     "truffle-flattener": "^1.4.4"
