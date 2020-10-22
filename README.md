@@ -8,14 +8,13 @@ Feel free to read the code. More details coming soon.
 
 ## Deployed Contracts / Hash
 
-- SushiToken - https://etherscan.io/token/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
-- MasterChef - https://etherscan.io/address/0xc2edad668740f1aa35e4d8f227fb8e17dca888cd
-- (Uni|Sushi)swapV2Factory - https://etherscan.io/address/0xc0aee478e3658e2610c5f7a4a2e1777ce9e4f2ac
-- (Uni|Sushi)swapV2Router02 - https://etherscan.io/address/0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f
-- (Uni|Sushi)swapV2Pair init code hash - `e18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303`
-- SushiBar - https://etherscan.io/address/0x8798249c2e607446efb7ad49ec89dd1865ff4272
-- SushiMaker - https://etherscan.io/address/0x54844afe358ca98e4d09aae869f25bfe072e1b1a
-- Migrator2 - https://etherscan.io/address/0x60A02cD1e3443E8ab7825DccF8d7080Eb78BCA6F
+- (Uni|Nyan)swapV2Factory - https://etherscan.io/address/0xc0aee478e3658e2610c5f7a4a2e1777ce9e4f2ac
+- (Uni|Nyan)swapV2Router02 - https://etherscan.io/address/0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f
+- (Uni|Nyan)swapV2Pair init code hash - `013e1bc154c7046b2e4c83a88d09a529426112c780ab99fc8c8ec44991768511`
+
+- WETH (mainnet) - https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+- WETH (ropsten) - https://ropsten.etherscan.io/address/0xc778417e063141139fce010982780140aa0cd5ab
+- WETH (kovan) - https://kovan.etherscan.io/address/0xd0a1e359811322d97991e03f863a0c30c2cf029c
 
 ## License
 
