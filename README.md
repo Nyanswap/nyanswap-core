@@ -2,7 +2,7 @@
 
 Forked form Sushiswap
 
-https://app.nyanswap.com/ 
+https://nyanswap.com/ 
 
 Feel free to read the code. More details coming soon.
 
